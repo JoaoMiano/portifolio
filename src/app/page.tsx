@@ -1,6 +1,12 @@
+import { Navbar } from "@/components/Navbar"
+import { ThemeToogle } from "@/components/theme-toogle"
+
 const Page = ()=>{
   return(
-    <h1>first commit</h1>
+    <div className="min-h-screen">
+      <Navbar/>
+
+    </div>
   )
 }
 
