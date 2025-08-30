@@ -11,6 +11,7 @@ import { Menu } from "lucide-react"; // Ícone dos traços (hambúrguer)
 
 
 const scrollToSection = (id: string) => {
+    alert(id)
     const el = document.getElementById(id);
     if (el) {
         el.scrollIntoView({ behavior: "smooth" });

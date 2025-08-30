@@ -1,6 +1,6 @@
 'use client'
 
-import { Download, Github, Linkedin, Mail } from "lucide-react"
+import { Download, Github, Linkedin } from "lucide-react"
 import { Button } from "./ui/button"
 import { Geist_Mono } from "next/font/google";
 import { motion } from 'motion/react'
@@ -12,9 +12,6 @@ const geistMono = Geist_Mono({
 
 export const HeroSection = () => {
 
-    const handleDownloadCV = () => {
-
-    }
 
     return (
         <section
@@ -54,7 +51,7 @@ export const HeroSection = () => {
                                 transition={{ delay: 0.8 }}
                                 className="text-2xl md:text-4xl text-muted-foreground font-semibold"
                             >
-                                Dessenvolvedor Fullstack
+                                Desenvolvedor Fullstack
                             </motion.h2>
 
                             <motion.p

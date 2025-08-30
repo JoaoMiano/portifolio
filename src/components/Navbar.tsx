@@ -3,7 +3,7 @@
 import { ThemeToogle } from "./theme-toogle"
 import { Geist_Mono } from 'next/font/google'
 import { motion } from 'motion/react';
-import { NavItem } from "./ui/navitem";
+import { NavItem } from "./navitem";
 import MobileMenu from "./MobileMenu";
 
 const geistMono = Geist_Mono({
@@ -29,7 +29,7 @@ export const Navbar = () => {
                 <div className="hidden md:block text-xl">
                     <ul className="flex gap-8">
                         <NavItem idSection="home" label="Inicío" />
-                        <NavItem idSection="About" label="Sobre" />
+                        <NavItem idSection="about" label="Sobre" />
                         <NavItem idSection="skils" label="Habilidades" />
                         <NavItem idSection="projects" label="Projetos" />
                         <NavItem idSection="contact" label="Contato" />

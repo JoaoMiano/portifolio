@@ -1,12 +1,13 @@
+import { AboutSection } from "@/components/AboutSection"
 import { HeroSection } from "@/components/HeroSection"
 import { Navbar } from "@/components/Navbar"
-import { ThemeToogle } from "@/components/theme-toogle"
 
 const Page = ()=>{
   return(
     <div className="min-h-screen">
       <Navbar/>
       <HeroSection/>
+      <AboutSection/>
 
     </div>
   )
