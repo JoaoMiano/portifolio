@@ -9,7 +9,7 @@ export const AboutSection = () => {
     return (
         <section
             id="about"
-            className="container mx-auto px-8 "
+            className="container mx-auto px-8 mb-8"
         >
             <TitleSection title="Sobre Mim" />
 

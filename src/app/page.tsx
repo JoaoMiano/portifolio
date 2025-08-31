@@ -1,14 +1,14 @@
 import { AboutSection } from "@/components/AboutSection"
 import { HeroSection } from "@/components/HeroSection"
 import { Navbar } from "@/components/Navbar"
-
-const Page = ()=>{
-  return(
+import { SkilsSection } from "@/components/SkilsSection"
+const Page = () => {
+  return (
     <div className="min-h-screen">
-      <Navbar/>
-      <HeroSection/>
-      <AboutSection/>
-
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <SkilsSection />
     </div>
   )
 }

@@ -10,7 +10,7 @@ export const TitleSection = ({ title }: Props) => {
     return (
         <motion.div
             viewport={{ once: true, amount: 0.6 }}
-            className=' my-16'
+            className='py-8'
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
