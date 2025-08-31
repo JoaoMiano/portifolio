@@ -1,8 +1,8 @@
 'use client'
 
 import { motion } from 'motion/react'
-import { TitleSection } from "./TitleSection"
-import { AboutCard } from './AboutCard'
+import { TitleSection } from "../TitleSection"
+import { AboutCard } from '../AboutCard'
 import { AppWindow, RocketIcon, UsersRound, ShieldCheck } from 'lucide-react'
 
 export const AboutSection = () => {
@@ -42,10 +42,10 @@ export const AboutSection = () => {
                     transition={{ delay: 0.5, duration: 0.6 }}
                     className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:w-auto'
                 >
-                    <AboutCard icon={AppWindow} label='2' description='Projetos Entregues'/>
-                    <AboutCard icon={UsersRound} label='2' description='Clientes'/>
-                    <AboutCard icon={RocketIcon} label='2' description='Anos de Experiência'/>
-                    <AboutCard icon={ShieldCheck} label='10' description='Tecnologias Utilizadas'/>
+                    <AboutCard icon={AppWindow} label='2' description='Projetos Entregues' />
+                    <AboutCard icon={UsersRound} label='2' description='Clientes' />
+                    <AboutCard icon={RocketIcon} label='2' description='Anos de Experiência' />
+                    <AboutCard icon={ShieldCheck} label='10' description='Tecnologias Utilizadas' />
                 </motion.div>
             </div>
         </section>

@@ -1,8 +1,9 @@
 'use client'
 import { motion } from 'motion/react'
 import { technologies } from "@/data/techSkilsData"
-import { SkilsCarousel } from "./SkilsCarousel"
-import { TitleSection } from "./TitleSection"
+import { TitleSection } from '../TitleSection'
+import { SkilsCarousel } from '../SkilsCarousel'
+
 
 export const SkilsSection = () => {
     // duplica os itens caso o tamanho for menos que 6 para nao quebrar o careousel
