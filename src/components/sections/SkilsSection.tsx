@@ -27,10 +27,10 @@ export const SkilsSection = () => {
                 <TitleSection title="Habilidades" />
                 <motion.p
                     className="text-foreground/80 text-center pb-8"
-                    initial={{opacity: 0}}
-                    whileInView={{opacity: 1}}
-                    transition={{delay: 0.6, duration:0.5}}
-                    viewport={{once: true, amount: 0.6}}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ delay: 0.6, duration: 0.5 }}
+                    viewport={{ once: true, amount: 0.6 }}
                 >
                     Stack tecnológico que utilizo para desenvolver soluções web completas
                 </motion.p>

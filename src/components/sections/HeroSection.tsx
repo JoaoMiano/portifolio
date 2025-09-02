@@ -1,9 +1,10 @@
 'use client'
 
 import { Download, Github, Linkedin } from "lucide-react"
-import { Button } from "./ui/button"
+
 import { Geist_Mono } from "next/font/google";
 import { motion } from 'motion/react'
+import { Button } from "../ui/button";
 
 const geistMono = Geist_Mono({
     subsets: ['latin'],
