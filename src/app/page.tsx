@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar"
 import { SkilsSection } from "@/components/sections/SkilsSection"
 import { ProjectsSection } from "@/components/sections/ProjectsSection"
 import { ContactSection } from "@/components/sections/ContactSecttion"
+import { Footer } from "@/components/Footer"
 const Page = () => {
   return (
     <div className="min-h-screen">
@@ -13,6 +14,7 @@ const Page = () => {
       <SkilsSection />
       <ProjectsSection/>
       <ContactSection/>
+      <Footer/>
     </div>
   )
 }

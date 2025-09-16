@@ -14,7 +14,7 @@ export const ProjectsSection = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             id="projects"
         >
-            <div className="container mx-auto px-8">
+            <div className="container mx-auto px-8 py-8">
                 <TitleSection title="Projetos" />
                 <p className="text-lg md:text-xl text-foreground text-center pb-8">
                     Uma seleção dos meus projetos mais recentes, demonstrando diferentes tecnologias e soluções

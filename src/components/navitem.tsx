@@ -8,11 +8,19 @@ type Props = {
 }
 
 const scrollToSection = (id: string) => {
-    const el = document.getElementById(id);
-    if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
-    }
+  const el = document.getElementById(id);
+  if (el) {
+    // pega a altura do navbar (pode ser dinamicamente, se tiver id/class nele)
+    const navbarHeight =
+      window.innerWidth >= 768 ? 88 : 56; // md:h-14 = 56px, h-10 = 40px
+
+    const y =
+      el.getBoundingClientRect().top + window.scrollY - navbarHeight;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
+  }
 };
+
 
 export const NavItem = ({ label, idSection }: Props) => {
     return (

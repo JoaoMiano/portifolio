@@ -10,7 +10,7 @@ export const ContactSection = () => {
     return (
         <section
             id="contact"
-            className="bg-secondary mt-8"
+            className="bg-secondary py-8"
         >
             <div className="container mx-auto px-8">
                 <TitleSection title="Entre em Contato!" />
