@@ -1,6 +1,6 @@
 import { z } from "zod"
 
-const formContactSchema = z.object({
+export const formContactSchema = z.object({
     name: z
         .string({ message: 'Nome obrigatório' })
         .min(3, 'Nome deve conter no minimo 3 letras.')
@@ -23,3 +23,5 @@ const formContactSchema = z.object({
         .nonempty("Campo obrigatório")
         .min(10, "Minimo de 10 caracteres")
 })
+
+export type FormContact = z.infer<typeof formContactSchema>

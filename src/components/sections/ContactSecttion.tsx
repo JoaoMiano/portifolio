@@ -1,6 +1,7 @@
 'use client'
 
 import { AboutCard } from "../AboutCard"
+import { ContactForm } from "../ContactForm";
 import { TitleSection } from "../TitleSection"
 import { Linkedin, Github, Mail, } from "lucide-react"
 import { FaWhatsapp } from "react-icons/fa";
@@ -24,7 +25,7 @@ export const ContactSection = () => {
                 >
                     {/* Links */}
                     <div
-                        className=" p-2 md:p-4 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4"
+                        className=" p-2 md:p-4 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 flex-1"
                     >
                         <AboutCard label="Likedin" description="Perfil Profissional" icon={Linkedin} link="https://www.linkedin.com/in/joao-miano/" />
                         <AboutCard label="Github" description="Meus Projetos" icon={Github} link="https://github.com/JoaoMiano" />
@@ -43,6 +44,10 @@ export const ContactSection = () => {
                     </div>
 
                     {/* Formulariuo */}
+
+                    <div className="flex-1 p-2 md:p-4 ">
+                        <ContactForm />
+                    </div>
                 </div>
 
             </div>
