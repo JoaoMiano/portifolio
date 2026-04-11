@@ -17,11 +17,11 @@ export const HeroSection = () => {
     return (
         <section
             id="home"
-            className="min-h-screen flex items-center justify-center pt-24 "
+            className="min-h-screen flex items-center justify-center pt-18 md:pt-24"
         >
             <div className="container mx-auto px-8">
                 <div
-                    className="flex flex-col md:flex-row justify-between gap-8 md:gap-80 items-center"
+                    className="flex flex-col md:flex-row justify-between gap-8 md:gap-16 items-center"
                 >
                     {/* Apresentaçao */}
                     <motion.div

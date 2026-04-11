@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 export const Navbar = () => {
     return (
         
-        <nav className="backdrop-blur-md bg-background/90 fixed top-0 w-full border-b-1 py-4 md:py-8 z-10 ">
+        <nav className="backdrop-blur-md bg-background/90 fixed top-0 w-full border-b z-10 h-14 md:h-16">
             <motion.div
-                className="container mx-auto px-8 flex justify-between items-center h-10 md:h-14"
+                className="container mx-auto px-8 flex justify-between items-center h-full"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}

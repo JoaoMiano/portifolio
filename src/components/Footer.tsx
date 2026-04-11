@@ -16,7 +16,7 @@ export const Footer = () => {
     ];
     return (
         <footer className="container mx-auto px-8 py-4">
-            <div className="flex justify-between gap-8">
+            <div className="flex flex-wrap justify-between gap-8">
                 {/* Parte 1 - Sobre */}
                 <div className="flex flex-col  gap-4 flex-1">
                     <a href="#home" className={`text-xl md:text-2xl ${geistMono.className} text-primary`}>&lt;Dev/&gt;</a>
