@@ -45,7 +45,7 @@ export const ProjectCard = ({ project }: { project: Project }) => {
             </CardContent>
 
             <CardFooter className="w-full flex flex-row  gap-3 sm:gap-4 justify-between items-stretch sm:items-center pb-4">
-                <a href={project.githubLink} className="flex-1">
+                <a target="_blank" href={project.githubLink} className="flex-1">
                     <Button
                         className="cursor-pointer w-full"
                         variant={"outline"}
@@ -55,7 +55,7 @@ export const ProjectCard = ({ project }: { project: Project }) => {
                     </Button>
                 </a>
 
-                <a href={project.demoLink} className="flex-1">
+                <a target="_blank" href={project.demoLink} className="flex-1">
                     <Button
                         className="cursor-pointer w-full"
                         variant={"ghost"}
