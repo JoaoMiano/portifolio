@@ -76,7 +76,7 @@ export const HeroSection = () => {
                             <a href="/Curriculo.pdf" download={'Currículo_Joao_Miano.pdf'}>
                                 <Button
                                     variant={"outline"}
-                                    className="mx-auto cursor-pointer md:mx-0 max-w-min bg-primary hover:bg-primary/90 text-primary-foreground hover:text-primary-foreground/90 px-6 py-3 dark:text-foreground dark:bg-primary hover:dark:bg-primary/90"
+                                    className="mx-auto cursor-pointer  bg-primary hover:bg-primary/90 text-primary-foreground hover:text-primary-foreground/90 px-6 py-3 dark:text-foreground dark:bg-primary hover:dark:bg-primary/90"
                                 >
                                     <Download className="mr-3" />
                                     Download CV
@@ -85,14 +85,14 @@ export const HeroSection = () => {
 
                             <div>
                                 <a href="https://github.com/JoaoMiano" target="_blank">
-                                    <Button variant="ghost" size="icon" className="hover:text-primary cursor-pointer">
-                                        <Github className="w-5 h-5" />
+                                    <Button variant="ghost" className="hover:text-primary cursor-pointer w-12 h-12">
+                                        <Github className="!w-7 !h-7" />
                                     </Button>
                                 </a>
 
                                 <a href="https://www.linkedin.com/in/joao-miano/" target="_blank">
-                                    <Button variant="ghost" size="icon" className="hover:text-primary cursor-pointer">
-                                        <Linkedin className="w-5 h-5" />
+                                    <Button variant="ghost" className="hover:text-primary cursor-pointer w-12 h-12">
+                                        <Linkedin className="!w-7 !h-7" />
                                     </Button>
                                 </a>
                             </div>

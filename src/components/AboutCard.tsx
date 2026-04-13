@@ -12,11 +12,11 @@ type Props = {
 export const AboutCard = ({ icon: Icon, label, description, link }: Props) => {
   const cardContent: ReactNode = (
     <div className=" border-1 border-border bg-card p-2 md:p-4  flex flex-col items-center justify-center gap-1 md:gap-2 rounded-lg">
-      <div className="p-4 rounded-lg bg-primary/10">
-        <Icon size={28} className="text-primary" />
+      <div className="p-2 md:p-4 rounded-lg bg-primary/10">
+        <Icon size={24} className="text-primary" />
       </div>
-      <h3 className="text-primary text-2xl md:text-3xl font-bold">{label}</h3>
-      <p className="text-foreground text-sm md:text-md text-center break-words max-w-full">
+      <h3 className="text-primary text-xl md:text-3xl font-bold">{label}</h3>
+      <p className="text-foreground text-md text-center  w-full">
         {description}
       </p>
 

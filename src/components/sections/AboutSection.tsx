@@ -40,7 +40,7 @@ export const AboutSection = () => {
                     viewport={{ once: true, amount: 0.2 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.6 }}
-                    className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full md:w-auto'
+                    className='grid grid-cols-2 gap-2 w-full md:w-auto'
                 >
                     <AboutCard icon={AppWindow} label='2' description='Projetos Entregues' />
                     <AboutCard icon={UsersRound} label='2' description='Clientes' />

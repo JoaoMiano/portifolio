@@ -49,7 +49,7 @@ export const Footer = () => {
                 </div>
                 {/* Parte 3 - Contato */}
                 <div className="flex flex-col gap-4 flex-1">
-                    <h5 className="text-lg md:text-xl font-semibold">Links Rápidos</h5>
+                    <h5 className="text-lg md:text-xl font-semibold">Contato</h5>
                     <ul className="space-y-4">
                         {contactInfo.map((contact) => (
                             <li key={contact.label} className="flex items-center space-x-3">
