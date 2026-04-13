@@ -4,12 +4,13 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 
 export const metadata: Metadata = {
+   metadataBase: new URL("https://joaomiano.com.br"),
    title: "Portifólio - João Miano",
    description: "Portifólio para exibir meus projetos e habilidades",
    openGraph: {
       title: "Portifólio - João Miano",
       description: "Portifólio para exibir projetos e habilidades",
-      url: "https://joaomiano.dev",
+      url: "https://joaomiano.com.br",
       siteName: "Portifólio - João Miano",
       images: [
          {

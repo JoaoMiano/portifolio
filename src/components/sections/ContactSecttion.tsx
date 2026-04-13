@@ -25,12 +25,12 @@ export const ContactSection = () => {
                 >
                     {/* Links */}
                     <div
-                        className=" p-2 md:p-4 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 flex-1"
+                        className=" p-2 md:p-4 grid grid-cols-2 gap-2 md:gap-4 flex-1"
                     >
                         <AboutCard label="Likedin" description="Perfil Profissional" icon={Linkedin} link="https://www.linkedin.com/in/joao-miano/" />
                         <AboutCard label="Github" description="Meus Projetos" icon={Github} link="https://github.com/JoaoMiano" />
                         <AboutCard label="Email" description="joaomiano.dev@gmail.com" icon={Mail} link="mailto:joaomiano.dev@gmail.com" />
-                        <AboutCard label="WhatsApp" description="+55(11)971611315" icon={FaWhatsapp} link="https://wa.me/5511971611315" />
+                        <AboutCard label="WhatsApp" description="(11) 97161-1315" icon={FaWhatsapp} link="https://wa.me/5511971611315" />
                     </div>
 
                     {/* Divider */}

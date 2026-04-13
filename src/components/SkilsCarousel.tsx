@@ -46,7 +46,7 @@ export function SkilsCarousel({ category, techs }: { category: keyof typeof cate
                         disableOnInteraction: false,
                         pauseOnMouseEnter: false,
                     }}
-                    loop={true}
+
                     className="w-64 h-48"
                 >
                     {techs.map((tech, index) => (
