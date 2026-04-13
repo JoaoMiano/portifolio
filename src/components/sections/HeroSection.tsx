@@ -112,7 +112,7 @@ export const HeroSection = () => {
                             className="w-60 h-60 md:w-full md:h-full rounded-full bg-violet-100 dark:bg-violet-300"
                             style={{ boxShadow: '0 0 20px #8B53F1' }}
                         >
-                            <img src="/perfil.png" alt="" className="rounded-full p-2" />
+                            <img src="/perfil.png" alt="" className="rounded-full " />
                         </motion.div>
                     </div>
                 </div>
